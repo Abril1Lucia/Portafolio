@@ -112,6 +112,7 @@ body {
     width: 90vw;
     margin: 100px auto;
     padding: 100px;
+
 }
 
 /* .container-line {
@@ -225,7 +226,29 @@ footer {
 } */
 
 
-@media screen and (max-width: 768px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+
+
 
     nav {
         color: var(--color-nav);
@@ -259,8 +282,9 @@ footer {
 
     }
 
+
     .Container-Baner {
-        width: 100vw;
+        width: 50vw;
         height: 100px;
         position: fixed;
     }
@@ -278,40 +302,93 @@ footer {
 
     }
 
-    .title {
-        color: rgb(0, 0, 0);
-        font-size: 50px;
-        text-align: center;
-        margin-bottom: 40px;
-
+    .nohedormidobien {
+        transform: scale(3.5);
+        transform-origin: center;
+        /* width: 100px;
+        height: 100px;
+        object-fit: cover; */
     }
+
+    video {
+        width: 100px;
+        height: 900px;
+        object-fit: cover;
+    }
+
+    /* .title {
+            color: rgb(0, 0, 0);
+            font-size: 50px;
+            text-align: center;
+            margin-bottom: 40px;
+
+        } */
 
 
     .Luna-light {
-        width: 300px;
-        margin: 80px auto;
-        resize: horizontal;
+        border: 3px dotted #8869A5;
+        width: 90vw;
+        margin: 50px auto;
+        padding: 5px;
+        flex-direction: column;
+
+
     }
 
-    .container {
+
+    #Logo {
         width: 100px;
-    }
-    
+        height: 10vw;
 
-    .container_img {
-        width: 100%;
+    }
+
+    .title {
+        order: 0;
+        /* Asegura que el título aparezca primero */
+    }
+
+    .moon {
+        order: 1;
+        /* Asegura que la imagen aparezca después del título */
+        width: 200px;
+        height: 150px;
+        object-fit: cover;
+    }
+
+    .container img {
+        width: 500px;
+    }
+
+
+    .star {
+        font-size: 16px;
+        order: 2;
+        /* Asegura que el texto aparezca después de la imagen */
+    }
+
+    .btn {
+        display: none;
+    }
+
+
+    /* .star {
+        font-size: 15px;
+        gap: 5px;
         
     }
+ 
+    .moon {
+        width: 600px;
+        height: auto;
+    } */
+
+
+    .gmail {
+        display: none;
+    }
+
+    .whats {
+        display: none;
+    }
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
