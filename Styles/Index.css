@@ -277,7 +277,7 @@ footer {
         align-items: center;
         list-style: none;
         gap: 20px;
-        position: relative;
+        /* position: relative; */
         /* cursor: pointer; */
 
     }
