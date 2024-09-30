@@ -392,3 +392,212 @@ footer {
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+
+    nav {
+        color: var(--color-nav);
+
+    }
+
+    ul {
+
+        color: var(--text-color);
+        text-rendering: var(--textContenido);
+
+    }
+
+
+
+    .nav_list {
+
+        background-color: #B989D9;
+        width: 100vw;
+        height: 150px;
+        display: flex;
+        text-decoration: underline #a73d3d;
+        color: #ffebebde;
+        font-size: 20px;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        gap: 10px;
+        position: relative;
+        /* cursor: pointer; */
+
+    }
+
+
+    .Container-Baner {
+        width: 50vw;
+        height: 100px;
+        position: fixed;
+    }
+
+    #baner {
+        width: 100vw;
+        height: 500px;
+    }
+
+    body {
+        width: 100vw;
+        height: auto;
+        overflow-x: hidden;
+        background-color: #A28EBF;
+
+    }
+
+    .nohedormidobien {
+        transform: scale(1.5);
+        transform-origin: left;
+        /* width: 100px;
+        height: 100px;
+        object-fit: cover; */
+    }
+
+    video {
+        /* width: 10px;
+        height: 10px;
+        display: block; */
+
+        display: none;
+    }
+
+    /* .title {
+            color: rgb(0, 0, 0);
+            font-size: 50px;
+            text-align: center;
+            margin-bottom: 40px;
+
+        } */
+
+
+    .Luna-light {
+        border: 3px dotted #8869A5;
+        width: 90vw;
+        margin: 5px auto;
+        padding: 10px;
+        flex-direction: column;
+
+
+
+
+    }
+
+
+    #Logo {
+        display: none;
+
+    }
+
+    .title {
+        order: 0;
+        text-align: center;
+        font-size: large;
+        margin: auto 20px;
+        /* Asegura que el título aparezca primero */
+    }
+
+    .moon {
+        /* order: 1; */
+        /* Asegura que la imagen aparezca después del título */
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+
+    .container img {
+        /* order: 1;
+        width: 80vw;
+        margin-top: 20px;
+        align-content: center; */
+        display: none;
+
+
+        font-size: 15px;
+        text-align: center;
+        order: 2;
+        font-size: 1.2;
+    }
+
+
+    .star {
+        font-size: 15px;
+        text-align: center;
+        order: 2;
+        font-size: 1.2;
+        /* Asegura que el texto aparezca después de la imagen */
+
+        /* text-align: center;
+        font-size: large;
+        margin: auto 20px;
+        padding: 50px; */
+    }
+
+    .btn {
+        display: none;
+    }
+
+
+    /* .star {
+        font-size: 15px;
+        gap: 5px;
+        
+    }
+ 
+    .moon {
+        width: 600px;
+        height: auto;
+    } */
+
+
+    .gmail {
+        display: none;
+    }
+
+    .whats {
+        display: none;
+    }
+
+    .parrafo {
+        font-size: 10px;
+    }
+
+    .invitacion {
+        width: auto;
+        height: auto;
+    }
+
+
+
+}
