@@ -11,7 +11,8 @@
 
 
     --background-color: #260101;
-    --text-color: rgb(255, 255, 255) --textTitulos: 'Koulen', sans-serif;
+    --text-color: rgb(255, 255, 255);
+    --textTitulos: 'Koulen', sans-serif;
     --textContenido: 'Kadwa', sans-serif;
     --color-nav: rgb(0, 0, 0);
 }
@@ -44,7 +45,6 @@ ul {
     list-style: none;
     gap: 200px;
     position: relative;
-    /* cursor: pointer; */
 
 }
 
@@ -84,18 +84,16 @@ body {
     border-radius: 50px;
 }
 
-.container {
+.Container-Baner {
     justify-content: center;
     color: rgb(0, 0, 0);
     font-size: 20px;
     text-align: justify;
     line-height: 30px;
-
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 100px;
 }
 
 .title {
@@ -103,7 +101,7 @@ body {
     font-size: 50px;
     text-align: center;
     margin-bottom: 40px;
-    /* background-color: var(#8F3D38); */
+
 
 }
 
@@ -115,11 +113,6 @@ body {
 
 }
 
-/* .container-line {
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-} */
 
 table#space {
     border-collapse: separate;
@@ -139,9 +132,17 @@ table#space {
     align-items: center;
 }
 
+.whats {
+    width: 120px;
+}
+
+
 .gmail {
-    width: 30px;
-    /* height: 30px; */
+    width: 200px;
+}
+
+.parrafo {
+    padding: 50px;
 }
 
 
@@ -152,7 +153,7 @@ table#space {
     padding: 100px;
     display: grid;
     grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
     align-items: center;
     display: flex;
 }
@@ -198,32 +199,8 @@ footer {
     margin-top: 100px;
 }
 
-/* .luni {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-}
 
-.azar p  {
-    width: 80%;
-    height: 80%;
-} */
 
-/* .nav_title {
-
-    background-color: var(--background-color);
-    width: 100vw;
-    height: 150px;
-    display: flex;
-    text-decoration: underline #a73d3d;
-    color: #ffebebde;
-    font-size: 30px;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    gap: 200px;
-    cursor: pointer;
-} */
 
 
 
@@ -277,8 +254,7 @@ footer {
         align-items: center;
         list-style: none;
         gap: 20px;
-        /* position: relative; */
-        /* cursor: pointer; */
+
 
     }
 
@@ -305,9 +281,6 @@ footer {
     .nohedormidobien {
         transform: scale(3.5);
         transform-origin: center;
-        /* width: 100px;
-        height: 100px;
-        object-fit: cover; */
     }
 
     video {
@@ -316,13 +289,6 @@ footer {
         object-fit: cover;
     }
 
-    /* .title {
-            color: rgb(0, 0, 0);
-            font-size: 50px;
-            text-align: center;
-            margin-bottom: 40px;
-
-        } */
 
 
     .Luna-light {
@@ -344,12 +310,10 @@ footer {
 
     .title {
         order: 0;
-        /* Asegura que el título aparezca primero */
     }
 
     .moon {
         order: 1;
-        /* Asegura que la imagen aparezca después del título */
         width: 200px;
         height: 150px;
         object-fit: cover;
@@ -363,24 +327,12 @@ footer {
     .star {
         font-size: 16px;
         order: 2;
-        /* Asegura que el texto aparezca después de la imagen */
     }
 
     .btn {
         display: none;
     }
 
-
-    /* .star {
-        font-size: 15px;
-        gap: 5px;
-        
-    }
- 
-    .moon {
-        width: 600px;
-        height: auto;
-    } */
 
 
     .gmail {
@@ -452,7 +404,6 @@ footer {
         list-style: none;
         gap: 10px;
         position: relative;
-        /* cursor: pointer; */
 
     }
 
@@ -479,26 +430,15 @@ footer {
     .nohedormidobien {
         transform: scale(1.5);
         transform-origin: left;
-        /* width: 100px;
-        height: 100px;
-        object-fit: cover; */
+
     }
 
     video {
-        /* width: 10px;
-        height: 10px;
-        display: block; */
 
         display: none;
     }
 
-    /* .title {
-            color: rgb(0, 0, 0);
-            font-size: 50px;
-            text-align: center;
-            margin-bottom: 40px;
 
-        } */
 
 
     .Luna-light {
@@ -524,12 +464,9 @@ footer {
         text-align: center;
         font-size: large;
         margin: auto 20px;
-        /* Asegura que el título aparezca primero */
     }
 
     .moon {
-        /* order: 1; */
-        /* Asegura que la imagen aparezca después del título */
         width: 100%;
         height: auto;
         object-fit: cover;
@@ -537,10 +474,6 @@ footer {
 
 
     .container img {
-        /* order: 1;
-        width: 80vw;
-        margin-top: 20px;
-        align-content: center; */
         display: none;
 
 
@@ -556,29 +489,11 @@ footer {
         text-align: center;
         order: 2;
         font-size: 1.2;
-        /* Asegura que el texto aparezca después de la imagen */
-
-        /* text-align: center;
-        font-size: large;
-        margin: auto 20px;
-        padding: 50px; */
     }
 
     .btn {
         display: none;
     }
-
-
-    /* .star {
-        font-size: 15px;
-        gap: 5px;
-        
-    }
- 
-    .moon {
-        width: 600px;
-        height: auto;
-    } */
 
 
     .gmail {
